@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" verbose="0">
+  <listeners>
+    <listener class-name="extentReport.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="testClasses.ProductPageTestClass">
+        <methods>
+          <include name="verifyToDeleteAddedProduct"/>
+          <include name="verifyToCreateAndDeleteA_NewProductUsingRandomDataUtility"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="createReport"/>
+          <include name="verifyTocreateA_newProduct"/>
+          <include name="verifyProductsPageIsOpenWhileClickingOnListProducts"/>
+        </methods>
+      </class> <!-- testClasses.ProductPageTestClass -->
+      <class name="testClasses.ManageUsersTestClass">
+        <methods>
+          <include name="verifyToAddNewUser"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="createReport"/>
+        </methods>
+      </class> <!-- testClasses.ManageUsersTestClass -->
+      <class name="testClasses.LoginPageTestClass">
+        <methods>
+          <include name="verifyUnsuccessfulLogin"/>
+          <include name="verifySuccessfulLogin"/>
+          <include name="verifyTheExactURL_opensWhileHittingTheBaseURL"/>
+          <include name="verifyResetPasswordPageComingWhileComingOnForgotYourPassword"/>
+          <include name="afterMethod"/>
+          <include name="createReport"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testClasses.LoginPageTestClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

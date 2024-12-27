@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-27T15:22:22 IST" name="Default suite" finished-at="2024-12-27T15:22:58 IST" duration-ms="36025">
+    <groups>
+    </groups>
+    <test started-at="2024-12-27T15:22:22 IST" name="Default test" finished-at="2024-12-27T15:22:58 IST" duration-ms="36025">
+      <class name="testClasses.ProductPageTestClass">
+        <test-method is-config="true" signature="createReport()[pri:0, instance:testClasses.ProductPageTestClass@544fa968]" started-at="2024-12-27T15:22:21 IST" name="createReport" finished-at="2024-12-27T15:22:22 IST" duration-ms="743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReport -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.ProductPageTestClass@544fa968]" started-at="2024-12-27T15:22:22 IST" name="beforeMethod" finished-at="2024-12-27T15:22:31 IST" duration-ms="8619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyToCreateAndDeleteA_NewProductUsingRandomDataUtility()[pri:4, instance:testClasses.ProductPageTestClass@544fa968]" started-at="2024-12-27T15:22:31 IST" name="verifyToCreateAndDeleteA_NewProductUsingRandomDataUtility" finished-at="2024-12-27T15:22:52 IST" duration-ms="21330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToCreateAndDeleteA_NewProductUsingRandomDataUtility -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ProductPageTestClass@544fa968]" started-at="2024-12-27T15:22:52 IST" name="afterMethod" finished-at="2024-12-27T15:22:58 IST" duration-ms="5995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testClasses.ProductPageTestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
